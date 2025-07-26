@@ -6,36 +6,65 @@
     <title>自己紹介</title>
 		<!-- reset.css ress -->
 		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="body">
     <header class="header">
+        <h1>わたしの自己紹介サイト</h1>
         <nav class="nav">
             <ul>
                 <li><a href="#profile">プロフィール</a></li>
                 <li><a href="#hobbies">趣味</a></li>
             </ul>
         </nav>
-        <h1>わたしの自己紹介サイト</h1>
     </header>
     <main>
         <section id="profile">
-            <h2>井上舜太朗</h2>
-            <p>Inoue Shuntaro</p>
-            <p>血液型B型</p>
-            <p>生年月日12月26日</p>
-            </ul>
+            <h2>自己紹介</h2>
+            <div class="profile-box">
+                <h3>井上舜太朗</h3>
+                <p>Inoue Shuntaro</p>
+                <p>血液型: B型</p>
+                <p>生年月日: 12月26日</p>
+                <p>出身: 京都府亀岡市</p>
+                <p>職業: 専門学生</p>
+                <div class="profile-actions">
+                    <a href="zikosyoukai.html" class="detail-btn">詳しく</a>
+                </div>
+            </div>
         </section>
+        
         <section id="hobbies">
             <h2>趣味</h2>
-            <ul>
-                <li>アニメ</li>
-                <li>映画</li>
-                <li>旅行</li>
-            </ul>
+            <div class="hobbies-grid">
+                <div class="hobby-box">
+                    <h4>アニメ</h4>
+                    <p>様々なジャンルのアニメを観ます</p>
+                </div>
+                <div class="hobby-box">
+                    <h4>読書</h4>
+                    <p>小説などをよく読みます</p>
+                </div>
+                <div class="hobby-box">
+                    <h4>映画</h4>
+                    <p>SF・アクション映画が好きです</p>
+                </div>
+                <div class="hobby-box">
+                    <h4>旅行</h4>
+                    <p>新しい場所を探索するのが楽しいです</p>
+                </div>
+                <div class="hobby-box">
+                    <h4>ドライブ</h4>
+                    <p>自然の中をドライブするのが好きです</p>
+            </div>
+        </section>
     </main>
     <footer class="footer">
-        <p>&copy; 2024 わたしの自己紹介サイト</p>
+        <p>&copy; 2025 わたしの自己紹介サイト</p>
     </footer>
     <script src="js/scripts.js"></script>
 </body>
