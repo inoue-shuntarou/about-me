@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+		<!-- reset.css ress -->
+		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="body">
+    <header class="header">
+        <h1>わたしの自己紹介サイト</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#profile">プロフィール</a></li>
+                <li><a href="#hobbies">趣味</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="profile">
+            <h2>自己紹介</h2>
+            <div class="profile-box">
+                <h3>井上舜太朗</h3>
+                <p>Inoue Shuntaro</p>
+                <p>血液型: B型</p>
+                <p>生年月日: 12月26日</p>
+                <p>出身: 京都府亀岡市</p>
+                <p>職業: 専門学生</p>
+                <div class="profile-actions">
+                    <button class="detail-btn" id="showDetailBtn">詳しく</button>
+                </div>
+            </div>
+            
+            <!-- 詳細情報セクション（初期は非表示） -->
+            <div class="detailed-profile" id="detailedProfile" style="display: none;">
+                <h3>詳細プロフィール</h3>
+                <div class="detailed-info">
+                    <p><strong>生まれ:</strong> 埼玉県さいたま市大宮区</p>
+                    <p><strong>育ち:</strong> 京都府亀岡市</p>
+                    <p><strong>幼稚園:</strong> 亀岡市立亀岡幼稚園</p>
+                    <p><strong>小学校:</strong> 亀岡市立亀岡小学校</p>
+                    <p><strong>中学校:</strong> 亀岡市立亀岡中学校</p>
+                    <p><strong>高校:</strong> 京都府立亀岡高等学校</p>
+                    <p><strong>専門学校:</strong> 京都デザイン&テクノロジー専門学校</p>
+                    <p><strong>専攻:</strong> スーパーITエンジニア</p>
+                    <p><strong>学年:</strong> １年生</p>
+                    <p><strong>好きな食べ物:</strong> 麺類、肉</p>
+                    <p><strong>嫌いな食べ物:</strong> 魚介類全般（刺身は食べれる）</p>
+                    <p><strong>好きな季節:</strong> 秋（涼しくて過ごしやすい）</p>
+                    <p><strong>嫌いな季節:</strong> 夏（暑くて全てがやる気出ない）</p>
+                    <p><strong>好きな音楽:</strong> Hiphop</p>
+                    <p><strong>座右の銘:</strong> 継続は力なり</p>
+                    <p class="personality"><strong>性格:</strong> 超絶気まぐれ</p>
+                </div>
+                <div class="profile-actions">
+                    <button class="detail-btn close-btn" id="hideDetailBtn">閉じる</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="hobbies">
+            <h2>趣味</h2>
+            <div class="hobbies-grid">
+                <a href="anime.html" class="hobby-box">
+                    <h4>アニメ</h4>
+                    <p>様々なジャンルのアニメを観ます</p>
+                </a>
+                <a href="dokusyo.html" class="hobby-box">
+                    <h4>読書</h4>
+                    <p>小説などをよく読みます</p>
+                </a>
+                <a href="eiga.html" class="hobby-box">
+                    <h4>映画</h4>
+                    <p>SF・アクション映画が好きです</p>
+                </a>
+                <a href="ryokou.html" class="hobby-box">
+                    <h4>旅行</h4>
+                    <p>新しい場所を探索するのが楽しいです</p>
+                </a>
+                <a href="doraibu.html" class="hobby-box">
+                    <h4>ドライブ</h4>
+                    <p>自然の中をドライブするのが好きです</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- トップに戻るボタン -->
+    <button id="backToTopBtn" class="back-to-top">
+        ↑ トップに戻る
+    </button>
+    
+    <footer class="footer">　
+        <p>&copy; 2025 わたしの自己紹介サイト</p>
+    </footer>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
+
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
